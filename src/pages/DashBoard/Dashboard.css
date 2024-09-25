@@ -1,0 +1,77 @@
+.dashboard-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    color: #239b6d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-section h3 {
+    font-size: 1.5rem;
+    color:  #239b6d;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-application-list,
+  .job-listing-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .job-application-list li,
+  .job-listing-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .btn-edit,
+  .btn-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #309689;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-edit:hover,
+  .btn-add:hover {
+    background-color:  #1aaa97;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .dashboard-content {
+      padding: 15px;
+    }
+  
+    .dashboard-title {
+      font-size: 1.5rem;
+    }
+  
+    .dashboard-section h3 {
+      font-size: 1.25rem;
+    }
+  }
+  
