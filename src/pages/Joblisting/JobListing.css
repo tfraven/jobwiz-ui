@@ -1,0 +1,73 @@
+.job-listings-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .job-listings-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .job-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .job-company,
+  .job-location,
+  .job-salary {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .job-description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .btn-apply {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-apply:hover {
+    background-color: #0ee7bc;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .job-card {
+      flex: 1 1 calc(100% - 20px);
+    }
+  }
+  
